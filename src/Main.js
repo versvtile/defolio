@@ -17,7 +17,7 @@ import {
 } from "@solana/wallet-adapter-react-ui";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import Footer from './navbar/footer';
+// import Footer from './navbar/footer';
 
 
 // Default styles that can be overridden by your app
@@ -62,7 +62,7 @@ const Main = () => {
                 setTitle={setTitle}
               />
               <App connection={endpoint} variant={variant} title={title} />
-              <Footer/>
+              {/* <Footer/> */}
             </Fragment>
           </WalletModalProvider>
         </WalletProvider>

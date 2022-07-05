@@ -25,15 +25,15 @@ const Navigationbar = (props) => {
   }
 
   return (
-    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "#111827" }}>
+    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "#FFEFEB" }}>
       <Container>
         <Navbar.Brand href="#home" style={{ color: "#fff" }}>
-          Solana Gallery
+          <img src="head.png"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
-          <Nav>
+          {/* <Nav>
             <DropdownButton
               variant={props.variant.toLowerCase()}
               id="dropdown-basic-button"
@@ -44,10 +44,12 @@ const Navigationbar = (props) => {
               <Dropdown.Item eventKey="devnet">Devnet</Dropdown.Item>
               <Dropdown.Item eventKey="testnet">Testnet</Dropdown.Item>
             </DropdownButton>
-          </Nav>
+          </Nav> */}
           <Nav>
             <Nav.Link></Nav.Link>
-            <WalletMultiButton className="wallet-btn"/>
+            <WalletMultiButton className="wallet-btn" style={{
+              color: '#000'
+            }}/>
           </Nav>
         </Navbar.Collapse>
       </Container>

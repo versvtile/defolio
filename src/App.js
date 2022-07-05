@@ -109,7 +109,11 @@ function App(props) {
 
   return (
     <div className="main">
-      <Row className="inputForm">
+      <Row className="inputForm" >
+        <h2 className="text-center" style={{
+        fontSize: '120px',
+        marginBottom: '100px'
+      }}>DeFolio</h2>
         <Col lg="2"></Col>
         <Col xs="12" md="12" lg="5">
           <Form.Control
@@ -125,7 +129,7 @@ function App(props) {
             onClick={getNfts}
           >
             {" "}
-            Get NFTs from {props.title}{" "}
+            View Collection
           </Button>
         </Col>
         <Col lg="1"></Col>
@@ -165,7 +169,7 @@ function App(props) {
                     lg="3"
                     style={{
                       width: "100%",
-                      backgroundColor: "#2B3964",
+                      backgroundColor: "#212529",
                       padding: "10px",
                       borderRadius: "10px",
                     }}
@@ -213,7 +217,7 @@ function App(props) {
                   lg="3"
                   style={{
                     width: "100%",
-                    backgroundColor: "#2B3964",
+                    backgroundColor: "#212529",
                     padding: "10px",
                     borderRadius: "10px",
                   }}

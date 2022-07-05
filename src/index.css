@@ -7,7 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, div.main {
+  background-color: #ffefeb;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wallet-adapter-button {
+  /* color: #000 !important; */
+  background-color: #620DFF !important;
+  transition: all 0.4s ease;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #8d50ff !important;
+  transition: all 0.4s ease;
+}
+
+.btn-success {
+  background-color: #620DFF !important;
+  border-color: #ffefeb !important;
+  transition: all 0.4s ease;
+}
+
+.btn-success:hover {
+  background-color: #8d50ff !important;
+  border-color: #ffefeb !important;
+  transition: all 0.4s ease;
+}
+
+.badge.rounded-pill.text-light.bg-success {
+  background-color: #620DFF !important;
 }

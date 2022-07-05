@@ -2,6 +2,7 @@
 See all your NFTs in a single page
 
 ## Demo
- Demo is availabe at 
+ Demo is availabe at https://defolio.vercel.app/
 
-## Credits to Swaroop Maddu (Fork)
+## Credits 
+Swaroop Maddu https://github.com/swaroopmaddu/solana-nft-gallery
